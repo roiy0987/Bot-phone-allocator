@@ -1,4 +1,4 @@
-const { Sequelize } = require('sequelize');
+const Sequelize = require('sequelize');
 
 const sequelize = new Sequelize('smile_db','postgres','smileproject',{
     host: 'localhost',
